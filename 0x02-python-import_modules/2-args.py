@@ -13,7 +13,3 @@ if __name__ == "__main__":
 
     for i in range(1, num_arguments + 1):
         print("{}: {}".format(i, sys.argv[i]))
-    if num_arguments == 0:
-        print(".")
-    else:
-        print()
