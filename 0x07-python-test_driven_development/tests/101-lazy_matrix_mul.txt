@@ -1,0 +1,21 @@
+# Tests for 101-lazy_matrix_mul.py
+
+>>> lazy_matrix_mul([[1, 2], [3, 4]], [[1, 2], [3, 4]])
+[[7, 10], [15, 22]]
+
+>>> lazy_matrix_mul([[1, 2]], [[3, 4], [5, 6]])
+[[13, 16]]
+
+>>> lazy_matrix_mul([[1, 2, 3], [4, 5, 6]], [[1, 2], [3, 4], [5, 6]])
+[[22, 28], [49, 64]]
+
+>>> lazy_matrix_mul([[1, 2], [3, 4]], [[5, 6]])
+Traceback (most recent call last):
+  ...
+ValueError: m_a and m_b can't be multiplied
+
+>>> lazy_matrix_mul([], [])
+Traceback (most recent call last):
+  ...
+ValueError: m_a and m_b can't be multiplied
+
