@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+""" Def a base geometry class"""
+
 class BaseGeometry:
     """Class for geometry with area method."""
     

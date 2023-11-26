@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+""" Def a class rectangle inheriting from BaseGeometry"""
+
 class BaseGeometry:
     """Class for geometry with integer validation and area method."""
 

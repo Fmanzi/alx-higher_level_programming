@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+""" Def a bse geometry class"""
+
 class BaseGeometry:
     """Class for geometry with integer validation and area method."""
 
